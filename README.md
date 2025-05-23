@@ -64,6 +64,8 @@ Acest proiect analizează performanța mai multor modele de clasificare binară 
 * Pentru praguri mari (ex: 0.9), nu se prezic exemple pozitive, ceea ce duce la precizie zero — avertismentele din sklearn sunt normale și gestionate.
 * Codul este modular și ușor de extins pentru alte modele sau seturi de date.
 * Recomandat pentru proiecte de învățare automată cu date dezechilibrate.
+* Link-ul pentru accesarea datelor folosite: https://ec.europa.eu/eurostat/web/microdata/public-microdata/labour-force-survey
+* Am folosit doar fisierele cu datele pe ani, cele care contin Y
 
 
 
