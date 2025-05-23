@@ -1,8 +1,6 @@
  BinaryClassificationToolkit
 
-Sigur, iată un README complet și profesionist pentru proiectul tău, gata să-l pui pe GitHub:
 
----
 
 BinaryClassifierEval
 
@@ -10,7 +8,7 @@ BinaryClassifierEval
 
 Acest proiect analizează performanța mai multor modele de clasificare binară (MLP, SVM, Logistic Regression, Random Forest) aplicate unui set de date dezechilibrat. Scopul principal este evaluarea impactului pragului de decizie (threshold) asupra metrilor de performanță pentru Multi-layer Perceptron (MLP) și compararea acestuia cu alte modele clasice.
 
----
+
 
  Modele incluse
 
@@ -19,14 +17,13 @@ Acest proiect analizează performanța mai multor modele de clasificare binară 
 * **Logistic Regression**
 * **Random Forest**
 
----
+
 #Dataset
 
 * Setul de date conține 4000 de exemple, din care 211 sunt pozitive (clasa minoritară).
 * Probleme de dezechilibru între clase, ceea ce influențează metricele de evaluare.
 * Datele nu sunt incluse direct în repo, dar se pot înlocui cu propriul dataset cu format similar.
 
----
 
 ## Metodologie
 
@@ -36,7 +33,7 @@ Acest proiect analizează performanța mai multor modele de clasificare binară 
 * Se analizează matricea de confuzie pentru pragul optim.
 * Se compară performanțele MLP cu cele ale SVM, Logistic Regression și Random Forest.
 
----
+
 
 ## Rezultate cheie
 
@@ -52,7 +49,6 @@ Acest proiect analizează performanța mai multor modele de clasificare binară 
 * AUC pentru MLP la pragul 0.7: **0.940**.
 * Alte modele au AUC-uri comparabile, dar F1-score-uri mai scăzute pentru clasa minoritară.
 
----
 
 ## Matrice de confuzie exemplu (MLP, prag=0.7)
 
